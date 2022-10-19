@@ -1,0 +1,50 @@
+1.Main method in java
+       Main method is the starting point of the execution in java program 
+       Syntax : public static void main(string[]args){}
+       public is a access modifier,static is a keyword,void is a return type,main is a method name
+ 
+2.Control flow statement 
+      Decision making : if,if-else,else-if,nestedif
+      Looping statement: for,while,do-while
+      Jump statement   : return,break,continue
+
+3.Break and continue
+       	It is used to terminate or stop the loop.
+               Break;
+        It is used to continue the loop
+               Continue;
+
+4.Array
+        Array is a collection of element which have similar datatypes and we cant change array during the run time
+ 
+declaration:   keyword: datatype[]name=new datatype{}
+               literal: datatype[]name={ , , , , ,}
+
+5.Arrayindexboundexception
+         The arrayindexboundexception is a runtime exception in the java,The index is greater than or equal to size of the 
+array
+
+6.Create a object for a class
+            Syntax: classname objectname=keyword classname();
+example: laptop top = new laptop();
+         laptop is a classname
+         we can use top as a objectname
+         we can use new as a keyword
+         we create classname with pascalrotation
+
+7.Variable
+           Variable is used to store the data there are three type of variables in java
+                1.local variable: create a variable inside the method
+		2.global variable:create a variable inside the class or outside the method
+		3Instance variable: create a variable instantly 
+
+8.String
+         String is a non-primitive datatype and it ios immutable because we cant change it .It is a constant datatype
+
+9.declartation of string
+        literal: string name="    ";
+        Keyword: String text = new String(" ");
+ 
+10. .Equlas and  ==
+         .equals is check the content of the data
+         == is check the memory address of the data
